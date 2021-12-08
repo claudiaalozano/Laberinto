@@ -32,5 +32,5 @@ while (laberinto[y])[x] == "recorrido":
         y = y
 # A continuación muestro la posición en la que te encuentras
 print ("Usted se encuentra en la posición ", "(", x , "," , y , ")")
-
-
+if (laberinto[y])[x] == "X":
+    print("Usted ha chocado contra un muro, elija otra dirrección.")
