@@ -21,4 +21,16 @@ while (laberinto[y])[x] == "recorrido":
     if dirección_recorrido == "arriba":
         x = x
         y = y + 1
-    
+    if dirección_recorrido == "abajo":
+        x = x
+        y = y - 1
+    if dirección_recorrido == "izquierda":
+        x = x - 1
+        y = y
+    if dirección_recorrido == "derecha":
+        x = x + 1
+        y = y
+# A continuación muestro la posición en la que te encuentras
+print ("Usted se encuentra en la posición ", "(", x , "," , y , ")")
+
+
