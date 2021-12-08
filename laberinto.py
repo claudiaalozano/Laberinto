@@ -15,5 +15,7 @@ print("Usted comienza en la casilla (0,0)")
 
 while (laberinto[y])[x] == "recorrido":
     dirección_recorrido = input("¿Hacia que dirreción desea moverse?:")
-    if dirección_recorrido = "arriba" , "abajo" , "derecha" or "izquierda":
-         
+    if dirección_recorrido == "arriba" or "abajo" or "derecha" or "izquierda":
+         print ("El movimiento se ejecutara hacia", dirección_recorrido)
+
+    
