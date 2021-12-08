@@ -1,11 +1,10 @@
-laberinto = {
+laberinto = [
     ["recorrido" , "X" , "X" , "X" , "X"],
     ["recorrido" , "X" , "recorrido" , "recorrido" , "recorrido"],
     ["recorrido" , "X" , "recorrido" , "X" , "X"],
     ["recorrido" , "recorrido" , "recorrido" , "X" , "X"],
     ["X" , "X" , "X" , "X" , "X"]
-
-}
+]
 #posiciones para el inicio de la partida
 x=0
 y=0
@@ -30,7 +29,7 @@ while (laberinto[y])[x] == "recorrido":
     if dirección_recorrido == "derecha":
         x = x + 1
         y = y
+    if (laberinto[y])[x] == "X":
+        print ("Usted ha chocado contra un muro, elija otra dirrección.")
 # A continuación muestro la posición en la que te encuentras
 print ("Usted se encuentra en la posición ", "(", x , "," , y , ")")
-if (laberinto[y])[x] == "X":
-    print("Usted ha chocado contra un muro, elija otra dirrección.")
