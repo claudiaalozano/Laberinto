@@ -18,4 +18,7 @@ while (laberinto[y])[x] == "recorrido":
     if dirección_recorrido == "arriba" or "abajo" or "derecha" or "izquierda":
          print ("El movimiento se ejecutara hacia", dirección_recorrido)
 
+    if dirección_recorrido == "arriba":
+        x = x
+        y = y + 1
     
