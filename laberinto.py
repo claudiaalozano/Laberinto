@@ -34,3 +34,4 @@ while (laberinto[y])[x] == "recorrido":
 # A continuación muestro la posición en la que te encuentras
 
 print ("Usted se encuentra en la posición ", "(", x , "," , y , ")")
+
